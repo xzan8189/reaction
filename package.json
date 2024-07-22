@@ -1,11 +1,11 @@
 {
-	"homepage": "https://xzan8189/github.io/reaction",
+	"homepage": "https://xzan8189.github.io/reaction",
 	"name": "next-app-template",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist",
+		"deploy": "gh-pages -d build",
 		"dev": "next dev --turbo",
 		"build": "next build",
 		"start": "next start",
